@@ -5,7 +5,6 @@ import { TsFunctionDescription, TsFunctionsList } from "@shopware-pwa/typer";
 import nav from "./navigation";
 import { resolve } from "node:path";
 import { SearchPlugin } from "vitepress-plugin-search";
-import { it } from "node:test";
 
 export const sidebar = [
   {
