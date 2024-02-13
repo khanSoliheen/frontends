@@ -5,6 +5,7 @@ import { TsFunctionDescription, TsFunctionsList } from "@shopware-pwa/typer";
 import nav from "./navigation";
 import { resolve } from "node:path";
 import { SearchPlugin } from "vitepress-plugin-search";
+import { it } from "node:test";
 
 export const sidebar = [
   {
@@ -92,6 +93,10 @@ export const sidebar = [
             text: "Overwriting CMS",
             link: "/getting-started/cms/overwriting-cms",
           },
+          {
+            text: "Multiple CMS",
+            link: "/getting-started/cms/multiple-cms",
+          },
         ],
       },
       {
@@ -111,7 +116,7 @@ export const sidebar = [
           { text: "Checkout", link: "/getting-started/e-commerce/checkout" },
           { text: "Payments", link: "/getting-started/e-commerce/payments" },
           {
-            text: "Custome Payment",
+            text: "Custom Payment",
             link: "/getting-started/e-commerce/custom-payment",
           },
           {
@@ -217,10 +222,37 @@ export const sidebar = [
         link: "/resources/integrations/",
         items: [
           {
-            text: "Multi CMS instance",
-            link: "/resources/integrations/multi-cms",
+            text: "CMS",
+            link: "/resources/integrations/cms/",
+            items: [
+              {
+                text: "Storyblok",
+                link: "/resources/integrations/cms/storyblok",
+              },
+              {
+                text: "Strapi",
+                link: "/resources/integrations/cms/strapi",
+              },
+            ],
           },
-          { text: "Strapi", link: "/resources/integrations/strapi/" },
+          {
+            text: "Payments",
+            link: "/resources/integrations/payments/",
+            items: [
+              {
+                text: "Adyen",
+                link: "/resources/integrations/payments/adyen",
+              },
+              {
+                text: "mollie",
+                link: "/resources/integrations/payments/mollie",
+              },
+              {
+                text: "Paypal Express",
+                link: "/getting-started/e-commerce/custom-payment",
+              },
+            ],
+          },
         ],
       },
     ],
