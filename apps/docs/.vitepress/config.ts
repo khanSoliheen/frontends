@@ -228,7 +228,7 @@ export const sidebar = [
             ],
           },
           {
-            text: "Commerical",
+            text: "Commercial",
             link: "/resources/integrations/commercial/",
             items: [
               {
