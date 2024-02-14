@@ -103,25 +103,18 @@ export const sidebar = [
         link: "/getting-started/e-commerce/",
         items: [
           {
-            text: "Product listing",
+            text: "Product Listing",
             link: "/getting-started/e-commerce/product-listing",
           },
           {
-            text: "Product detail page",
+            text: "Product Detail Page",
             link: "/getting-started/e-commerce/product-detail-page",
           },
           { text: "Prices", link: "/getting-started/e-commerce/prices" },
           { text: "Cart", link: "/getting-started/e-commerce/cart" },
           { text: "Checkout", link: "/getting-started/e-commerce/checkout" },
           { text: "Payments", link: "/getting-started/e-commerce/payments" },
-          {
-            text: "Custom Payment",
-            link: "/getting-started/e-commerce/custom-payment",
-          },
-          {
-            text: "JSON-LD",
-            link: "/getting-started/e-commerce/json-ld",
-          },
+          { text: "JSON-LD", link: "/getting-started/e-commerce/json-ld" },
         ],
       },
       {
@@ -235,6 +228,24 @@ export const sidebar = [
             ],
           },
           {
+            text: "Commerical",
+            link: "/resources/integrations/commercial/",
+            items: [
+              {
+                text: "B2B Quick Order",
+                link: "/resources/integrations/commercial/b2b-quick-order",
+              },
+              {
+                text: "B2B Quote Management",
+                link: "/resources/integrations/commercial/b2b-quote-management",
+              },
+              {
+                text: "Custom Products",
+                link: "/resources/integrations/commercial/custom-products",
+              },
+            ],
+          },
+          {
             text: "Payments",
             link: "/resources/integrations/payments/",
             items: [
@@ -248,7 +259,7 @@ export const sidebar = [
               },
               {
                 text: "Paypal Express",
-                link: "/getting-started/e-commerce/custom-payment",
+                link: "/resources/integrations/payments/paypal-express",
               },
             ],
           },
